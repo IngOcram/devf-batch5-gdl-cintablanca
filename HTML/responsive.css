@@ -1,10 +1,11 @@
 body {
     margin: 0px;
-    background-color: rgb(34, 33, 33);
+    background-color: rgb(37, 75, 37);
 }
 nav{
     background-color: white;
     border-bottom: 3px solid rgb(124, 124, 124);
+    padding: 10px;
 }
 
 .left-nav i, .home-banner i {
@@ -71,6 +72,25 @@ h1, h2, h3, h4 {
     border-radius: 2px;
 }
 
+.responsive-banner{
+    background-color: white;
+    color: rgb(37, 37, 37);
+    padding: 0px;
+    margin: auto;
+}
+
+.responsive-banner h2 {
+text-align: center;
+font-size: 20px;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.responsive-banner p{
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
 .hide {
     display: none;
 }
@@ -80,13 +100,14 @@ h1, h2, h3, h4 {
 */
 
 @media screen and (max-width: 720px){
+    nav {
+        display: grid;
+    }
     .left-nav{
         display: none;
     }
     .home-banner i {
         display: inline-block;
     }
-    
-
 }
 
