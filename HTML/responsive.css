@@ -36,11 +36,11 @@ h1, h2, h3, h4 {
     text-align: center;
 }
 
-.right-nav i{
+.right-nav li{
     margin-right: 10px;
     color: lightgrey;
 }
-.right-nav i:hover{
+.right-nav li:hover{
     color: aqua;
 }
 

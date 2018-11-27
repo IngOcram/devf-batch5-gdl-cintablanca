@@ -1,0 +1,95 @@
+body {
+    margin: 0px;
+    background-color: rgb(37, 75, 37);
+}
+nav{
+    background-color: white;
+    border-bottom: 3px solid rgb(124, 124, 124);
+    padding: 10px;
+}
+
+.left-nav i, .home-banner i {
+    color: orangered;
+    }
+
+.home-banner i{
+    display: none;
+}
+
+.left-nav {
+    display: inline-block;
+}
+
+.left-nav div, .home-banner div {
+    display: inline-block;
+    }
+    h1, h2, h3, h4 {
+        margin: 0px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    .right-nav{
+        float: right;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .right-nav i{
+        margin-right: 10px;
+        color: lightgrey;
+    }
+    .right-nav i:hover{
+        color: aqua;
+    }
+    
+    .home-banner{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .home-banner h1 {
+        color: greenyellow;
+    }
+    
+    .home-banner h2{
+        color: white;
+    }
+    
+    .centrado {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .orange-banner{
+        background-color: orange;
+        color: white;
+        padding: 16px;
+        width: 70%;
+        margin-left: auto;
+        margin: auto;
+        border-radius: 2px;
+    }
+    
+    .responsive-banner{
+        background-color: white;
+        color: rgb(37, 37, 37);
+        padding: 0px;
+        margin-top: 52px;
+    }
+    
+    .responsive-banner h2 {
+    text-align: center;
+    font-size: 34px;
+    font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .responsive-banner p{
+        font-size: 10px;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+    }
+    
+    .hide {
+        display: none;
+    }
