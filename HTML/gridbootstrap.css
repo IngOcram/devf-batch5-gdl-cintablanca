@@ -1,0 +1,19 @@
+.y {
+    background-color: yellow;
+    height: 75px;
+    margin: 1px;
+    box-shadow: black 1px 1px 1px;
+}
+.a{
+    background-color: rgb(151, 151, 231);
+    height: 75px;
+    margin: 1px;
+}
+.col-sm-1 {
+padding: 1px;
+box-shadow: black 1px 1px 1px;
+}
+
+.col-sm-1:hover {
+    transition: 300ms;
+}
