@@ -14,27 +14,26 @@ if(edad>=18){
     console.log ('tiene peleas en la coliseo');
     if (edad>=18 & edad<=24)
     console.log('estas en la universidad') 
-    else{
-        if(edad>=25 & edad<=28){ 
-            console.log('posgrado')
+    else{if(edad>=25 & edad<=28){ 
+        console.log('posgrado')
+    }else{
+        if(edad>=29 & edad<=33){
+            console.log('Adulto Joven')  
         }else{
-            if(edad>=29 & edad<=33){
-                console.log('Adulto Joven')  
+            if(edad>=34 & edad<=40){
+                console.log('Chavo Ruco') 
+        }else{
+            if(edad>=41 & edad<=47){
+                console.log('Señor Crisis')
             }else{
-                if(edad>=34 & edad<=40){
-                    console.log('Chavo Ruco') 
-            }else{
-                if(edad>=41 & edad<=47){
-                    console.log('Señor Crisis')
-                }else{
-                    if(edad>=48 & edad<=60){
-                        console.log('Viejo Lesbiano')
-                    }
+                if(edad>=48 & edad<=60){
+                    console.log('Viejo Lesbiano')
                 }
             }
-    }
-
-
+        }
+}   }
+        
+}
 }else{
     console.log('estas morro');
     if (edad>=6 & edad<=12){
@@ -49,4 +48,3 @@ if(edad>=18){
         } 
     }
 }
-
