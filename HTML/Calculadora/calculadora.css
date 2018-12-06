@@ -1,0 +1,20 @@
+.top {
+    background-color: rgb(153, 177, 153);
+    height: 63px;
+    margin: 2px;
+    box-shadow: black 1px 1px 1px;
+}
+.col-sm-4{
+    padding: 0px;
+}
+.col-sm-1{
+    padding: 1px;
+    border: black solid 1px 1px 1px; 
+    box-shadow: black 1px 1px 1px;
+    background-color: gray;
+    margin: 1px; 
+}
+
+.col-sm-1:hover {
+    transition: 300ms;
+}
