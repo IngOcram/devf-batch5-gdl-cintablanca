@@ -1,40 +1,36 @@
-body {
+body{
     background-color: orange;
 }
-
-.maquina{
-    background-color: lightgrey;
+ .calc{
+    background-color: lightgray;
     border-radius: 15px;
-    width: 300px;
+    width:300px;
     margin-left: auto;
     margin-right: auto;
     box-shadow: rgba(0, 0, 0, .5) 10px 10px 10px;
 }
-.container, .top{
+ .container, .top{
     padding: 16px;
 }
-h3{
+ h3{
     font-size: 45px;
     padding: 4px;
 }
-.no-padding{
+ .no-padding{
     padding: 0px;
 }
-.col, .col-4, .col-8{
+ .col, .col-4, .col-8{
     padding: 5px;
+}
+ .row{
     margin: 0px;
 }
-.row{
-    margin: 0px;
-}
-
-.top{
+ .top{
     background-color: rgb(165, 165, 165);
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
 }
-
-.pantalla{
+ .pantalla{
     background-color: rgb(230, 255, 141);
     width: 100%;
     height: 60px;
@@ -42,24 +38,19 @@ h3{
     border-radius: 5px;
     text-align: right;
 }
-
-button{
+ button{
     background-color: darkgray;
     border-radius: 5px;
     width: 100%;
     height: 45px;
     color:white;
 }
-
-button.operacion{
+ button.operador{
     background-color: gray;
-
 }
-
-button.doble-altura orange{
+ button.doble-altura{
     height: 100px;
 }
-
-button.orange{
+ button.orange{
     background-color: rgb(255, 140, 0);
-}
+} 
