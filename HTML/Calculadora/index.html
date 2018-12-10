@@ -10,16 +10,16 @@
     <link rel="stylesheet" href="calculadora.css">
 
 </head>
-<body>
+<body onload="calc();">
     
     <div class="calc">
         <div class="top">
-            <h3 class="pantalla">0</h3>
+            <h3 class="pantalla" id="resultado">0</h3>
         </div>
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <button class="operador">
+                    <button class="operador" id="reset">
                         <i class="fas fa-redo"></i>
                     </button>
                 </div>
@@ -29,44 +29,44 @@
                     </button>
                 </div>
                 <div class="col">
-                    <button class="operador">
+                    <button class="operador" id="division">
                         <i class="fas fa-divide"></i>
                     </button>
                 </div>
                 <div class="col">
-                    <button class="operador">
+                    <button class="operador" id="multiplicacion">
                         <i class="fas fa-times"></i>
                     </button>
                 </div>
              </div>
             <div class="row">
                 <div class="col">
-                    <button>7</button>
+                    <button id="siete">7</button>
                 </div>
                 <div class="col">
-                    <button>8</button>
+                    <button id="ocho">8</button>
                 </div>
                 <div class="col">
-                    <button>9</button>
+                    <button id="nueve">9</button>
                 </div>
                 <div class="col">
-                    <button class="operador">
+                    <button class="operador" id="resta">
                         <i class="fas fa-minus"></i>
                     </button>
                 </div>
              </div>
             <div class="row">
                 <div class="col">
-                    <button>4</button>
+                    <button id="cuatro">4</button>
                 </div>
                 <div class="col">
-                    <button>5</button>
+                    <button id="cinco">5</button>
                 </div>
                 <div class="col">
-                    <button>6</button>
+                    <button id="seis">6</button>
                 </div>
                 <div class="col">
-                    <button class="operador">
+                    <button class="operador" id="suma">
                         <i class="fas fa-plus"></i>
                     </button>
                 </div>
@@ -75,26 +75,26 @@
                 <div class="col-9 container no-padding">
                     <div class="row">
                         <div class="col-4">
-                            <button>1</button>
+                            <button id="uno">1</button>
                         </div>
                         <div class="col-4">
-                            <button>2</button>
+                            <button id="dos">2</button>
                         </div>
                         <div class="col-4">
-                            <button>3</button>
+                            <button id="tres">3</button>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-8">
-                            <button>0</button>
+                            <button id="cero">0</button>
                         </div>
                         <div class="col-4">
-                            <button>.</button>
+                            <button id="punto">.</button>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <button class="doble-altura orange">
+                    <button class="doble-altura orange" id="igual">
                         <i class="fas fa-equals"></i>
                     </button>
                 </div>
